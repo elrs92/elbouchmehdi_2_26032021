@@ -1,5 +1,56 @@
-img
+#liste_1
 {
-    width: 300px;
-    height:auto
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hébergement_1
+{
+    width: 220px;
+
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom:2px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+.hébergement_1 img
+{
+    width: 220;
+    height: 110px;
+}
+
+article
+{
+    background-color: #F2F2F2;
+}
+
+#Global_1
+{
+    width: 70%;
+}
+
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    
+}
+li
+{
+    list-style: none;
+}
+
+
+#afficher_plus{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
 }
