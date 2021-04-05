@@ -7,7 +7,7 @@
 
 .hébergement_1
 {
-    width: 220px;
+    width: 190px;
 
     background-color: white;
     border-radius: 20px;
@@ -17,6 +17,8 @@
     margin-bottom: 5px;
     margin-left: 12px;
     margin-right: 12px;
+
+    
     
 }
 .hébergement_1 img
@@ -33,7 +35,7 @@ article
 
 #Global_1
 {
-    width: 70%;
+    width: 64%;
 }
 
 
@@ -72,34 +74,39 @@ i
 }
 .hébergement_2 img
 {
- width: 100% ;
- height: 120px ;
- border-radius: 20px;
- object-fit: cover;
- 
+ width: 120px ;
+ height:120px ;
+ border-radius: 10% 0% 0% 10%;
 
+
+}
+
+p{
+    font-size: 0.8em;
 }
 .hébergement_2
 {
-    width: 100%;
+    width: 90%;
     
     background-color: white;
     
     border-radius: 20px;
     padding: 10px;
-
-    display: flex;
-}
-.pop_img
-{
-    width: 33%;
-    object-fit: cover;
+    
+ display: flex;
+align-items: flex-start;
+flex-wrap: nowrap;
+justify-content: space-;
 }
 
 
 #global_2
 {
-    width: 25%;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction : column;
+    align-items: center;
     
 }
 #global_all
