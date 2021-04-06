@@ -21,6 +21,10 @@
     
     
 }
+.div1
+{
+    margin-left: 10px;
+}
 .hébergement_1 img
 {
     width: 220;
@@ -36,6 +40,7 @@ article
 #Global_1
 {
     width: 64%;
+    margin-right: 3%;
 }
 
 
@@ -53,10 +58,12 @@ li
 }
 
 
-#afficher_plus{
+#afficher_plus
+{
     padding-top:20px;
     padding-bottom:20px;
     padding-left:40px;
+    font-weight: bold;
 }
 i
 {
@@ -72,7 +79,14 @@ i
   display: flex;
     justify-content: space-around;
     align-self: normal;
+    align-items: center;
     
+
+    
+}
+#icone_stats
+{
+    color :black;
 }
 .hébergement_2 img
 {
@@ -115,10 +129,13 @@ flex-wrap: nowrap;
     flex-direction : column;
     align-items: center;
     
+    
 }
 #global_all
 { 
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%
 }
