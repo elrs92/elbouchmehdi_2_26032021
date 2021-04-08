@@ -4,7 +4,7 @@
 }
 body
 {
-    font-family:"raleway";
+    font-family: ralesway;
 }
 
 
@@ -106,11 +106,6 @@ i
  margin-right: 4%;
  
 
-
-}
-.textepop
-{
-
 }
 
 p{
@@ -139,7 +134,7 @@ margin-bottom: 10px;
     justify-content: space-between;
     flex-direction : column;
     align-items: center;
-    margin-bottom: ;
+    margin-bottom: 10px ;
     
     
 }
