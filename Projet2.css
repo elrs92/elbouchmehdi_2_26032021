@@ -15,7 +15,7 @@ body
     justify-content: space-around;
 }
 
-.hébergement_1
+.hebergement_1
 {
     width: 190px;
 
@@ -35,9 +35,9 @@ body
 {
     margin-left: 10px;
 }
-.hébergement_1 img
+.hebergement_1 img
 {
-    width: 220;
+    width: 190px;
     height: 110px;
 }
 
@@ -214,4 +214,105 @@ justify-content: space-around;
 }
 
 
-   
+#rechercherButtom
+{
+    color: white;
+    background-color: #0065FC;
+    height: 24px;
+    border-radius: 0 10px 10px 0;
+    border:none;
+    padding: 5px;
+    
+}
+
+#rechercherDiv
+{
+    display:inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    border : 1px solid #F2F2F2;
+    
+} 
+
+#localtionIcon{
+    padding: 5px;
+    background-color: #F2F2F2;
+}
+
+#rechercher{
+    
+    border: none;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+
+
+#mesFiltres{
+    display: flex;
+}
+.unFiltre{
+    margin-left: 20px;
+    display:flex;
+
+    overflow: hidden;
+    border-radius: 100px;
+    border : 1px solid #F2F2F2;
+    height: min-content;
+}
+
+.filtreIcon{
+    border-radius: 50%;
+    background-color: lightblue;
+    color: #0065FC;
+    text-align: center;
+    align-self: center;
+    padding: 5px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.texteFiltre{
+    padding-left: 5px;
+    padding-right: 10px;
+    margin: 0;
+    align-self: center;
+}
+
+
+nav 
+{
+display : flex ;
+justify-content: space-between;
+align-items: flex-start;
+margin-right: 50px;
+
+}
+#bleu
+{
+    color: rgb(80, 162, 255);
+}
+#bleufonce
+{
+    color: rgb(33, 119, 218);
+}
+#reservia
+{
+    width: 30px ;
+    height: 30px;
+    
+
+}
+#adroite
+{
+    display: flex;
+    justify-content: flex-right;
+    height: 100%;
+}
+
+.menuAppli{
+    margin-left: 20px;
+}
